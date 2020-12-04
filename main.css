@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  /* color: white; */
+}
+
+html {
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+body {
+  position: absolute;
+  color: black;
+}
+
+/* NavBar */
+.header {
+  top: 0;
+  z-index: 999;
+  position: sticky;
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  background-color: #ffe5b4;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav-link {
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: #ffe5b4;
+  color: black;
+}
+
+.center-link,
+.right-link {
+  margin-left: 25px;
+}
+
+/* End Of NavBar */
+
+/* Top Section Below Nav */
+.top-article-left,
+.top-article-right {
+  width: 30%;
+}
+
+.top-img-1,
+.top-img-2,
+.top-img-3,
+.top-img-4 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.top-article-center {
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+
+.center-header {
+  margin-bottom: 20px;
+}
+.center-article-paragraph {
+  width: 95%;
+}
+
+.top-article-left {
+  width: 20%;
+}
+
+.top-article-right {
+  width: 20%;
+}
+
+/* End of top Section */
+
+/* Small Form below top section */
+
+.Form {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.input-field {
+  background-color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
+}
+
+.Form-btn {
+  padding: 5px 8px;
+  background-color: #ffe5b4;
+  color: black;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+/* Main Section */
+
+/* Main Section 1 */
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.section-1-header {
+  color: white;
+}
+
+.features {
+  margin-top: 40px;
+  background-color: #ffe5b4;
+  width: 50%;
+  box-shadow: 2px 2px 20px #ffe000;
+  text-align: center;
+  padding: 5px 8px;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.feature-4 {
+  margin-top: 20px;
+}
+
+.feature-1 > p,
+.feature-2 > p,
+.feature-3 > p,
+.feature-4 > p {
+  margin-top: 20px;
+}
+
+.feature-4 {
+  margin-bottom: 50px;
+}
+
+/* Main Section 2 --> Videos */
+
+.main-section-2 {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.videoWrapper {
+  margin-bottom: 10px;
+}
+
+.video2,
+.video3,
+.video5,
+.video6 {
+  margin-left: 10px;
+}
+
+/* Main Section 3 --> Computers sold*/
+
+.main-section3-header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-3-build {
+  background-color: #ffe5b4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 20px #ffe000;
+  margin-bottom: 50px;
+}
+
+.section-3-build > h3 {
+  margin-top: 20px;
+}
+
+.computer__img {
+  width: 40%;
+  margin-top: 30px;
+}
+
+.computer__info {
+  width: 60%;
+  margin-top: 50px;
+}
+
+.computer1-img {
+  width: 100%;
+}
+
+.specs {
+  margin-bottom: 40px;
+}
+
+.price {
+  margin-bottom: 40px;
+}
+
+.btn-select {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+/* Main Section 4 Links */
+
+.main-section-4 {
+  padding: 20px;
+  color: white;
+}
+
+.section-4-header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.info__text {
+  margin-bottom: 20px;
+}
+
+.info__links {
+  margin-left: 50px;
+}
+
+.extlinks {
+  color: yellow;
+}
+
+/* Footer */
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffe5b4;
+}
+
+.Copyright {
+  margin-top: 10px;
+}
